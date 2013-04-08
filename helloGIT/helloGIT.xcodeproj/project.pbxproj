@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F91C47A1712D60600C18523 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F91C4791712D60600C18523 /* UIKit.framework */; };
+		4F91C47C1712D60600C18523 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F91C47B1712D60600C18523 /* Foundation.framework */; };
+		4F91C47E1712D60600C18523 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F91C47D1712D60600C18523 /* CoreGraphics.framework */; };
+		4F91C4841712D60600C18523 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F91C4821712D60600C18523 /* InfoPlist.strings */; };
+		4F91C4861712D60600C18523 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F91C4851712D60600C18523 /* main.m */; };
+		4F91C48A1712D60600C18523 /* VRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F91C4891712D60600C18523 /* VRAppDelegate.m */; };
+		4F91C48C1712D60600C18523 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F91C48B1712D60600C18523 /* Default.png */; };
+		4F91C48E1712D60600C18523 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F91C48D1712D60600C18523 /* Default@2x.png */; };
+		4F91C4901712D60600C18523 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F91C48F1712D60600C18523 /* Default-568h@2x.png */; };
+		4F91C4931712D60600C18523 /* VRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F91C4921712D60600C18523 /* VRViewController.m */; };
+		4F91C4961712D60600C18523 /* VRViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F91C4941712D60600C18523 /* VRViewController_iPhone.xib */; };
+		4F91C4991712D60600C18523 /* VRViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F91C4971712D60600C18523 /* VRViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F91C4761712D60600C18523 /* helloGIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloGIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F91C4791712D60600C18523 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4F91C47B1712D60600C18523 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4F91C47D1712D60600C18523 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4F91C4811712D60600C18523 /* helloGIT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "helloGIT-Info.plist"; sourceTree = "<group>"; };
+		4F91C4831712D60600C18523 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4F91C4851712D60600C18523 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F91C4871712D60600C18523 /* helloGIT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "helloGIT-Prefix.pch"; sourceTree = "<group>"; };
+		4F91C4881712D60600C18523 /* VRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VRAppDelegate.h; sourceTree = "<group>"; };
+		4F91C4891712D60600C18523 /* VRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRAppDelegate.m; sourceTree = "<group>"; };
+		4F91C48B1712D60600C18523 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4F91C48D1712D60600C18523 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4F91C48F1712D60600C18523 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4F91C4911712D60600C18523 /* VRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VRViewController.h; sourceTree = "<group>"; };
+		4F91C4921712D60600C18523 /* VRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRViewController.m; sourceTree = "<group>"; };
+		4F91C4951712D60600C18523 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VRViewController_iPhone.xib; sourceTree = "<group>"; };
+		4F91C4981712D60600C18523 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VRViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F91C4731712D60600C18523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F91C47A1712D60600C18523 /* UIKit.framework in Frameworks */,
+				4F91C47C1712D60600C18523 /* Foundation.framework in Frameworks */,
+				4F91C47E1712D60600C18523 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F91C46D1712D60600C18523 = {
+			isa = PBXGroup;
+			children = (
+				4F91C47F1712D60600C18523 /* helloGIT */,
+				4F91C4781712D60600C18523 /* Frameworks */,
+				4F91C4771712D60600C18523 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F91C4771712D60600C18523 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F91C4761712D60600C18523 /* helloGIT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F91C4781712D60600C18523 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F91C4791712D60600C18523 /* UIKit.framework */,
+				4F91C47B1712D60600C18523 /* Foundation.framework */,
+				4F91C47D1712D60600C18523 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F91C47F1712D60600C18523 /* helloGIT */ = {
+			isa = PBXGroup;
+			children = (
+				4F91C4881712D60600C18523 /* VRAppDelegate.h */,
+				4F91C4891712D60600C18523 /* VRAppDelegate.m */,
+				4F91C4911712D60600C18523 /* VRViewController.h */,
+				4F91C4921712D60600C18523 /* VRViewController.m */,
+				4F91C4941712D60600C18523 /* VRViewController_iPhone.xib */,
+				4F91C4971712D60600C18523 /* VRViewController_iPad.xib */,
+				4F91C4801712D60600C18523 /* Supporting Files */,
+			);
+			path = helloGIT;
+			sourceTree = "<group>";
+		};
+		4F91C4801712D60600C18523 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F91C4811712D60600C18523 /* helloGIT-Info.plist */,
+				4F91C4821712D60600C18523 /* InfoPlist.strings */,
+				4F91C4851712D60600C18523 /* main.m */,
+				4F91C4871712D60600C18523 /* helloGIT-Prefix.pch */,
+				4F91C48B1712D60600C18523 /* Default.png */,
+				4F91C48D1712D60600C18523 /* Default@2x.png */,
+				4F91C48F1712D60600C18523 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F91C4751712D60600C18523 /* helloGIT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F91C49C1712D60600C18523 /* Build configuration list for PBXNativeTarget "helloGIT" */;
+			buildPhases = (
+				4F91C4721712D60600C18523 /* Sources */,
+				4F91C4731712D60600C18523 /* Frameworks */,
+				4F91C4741712D60600C18523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = helloGIT;
+			productName = helloGIT;
+			productReference = 4F91C4761712D60600C18523 /* helloGIT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F91C46E1712D60600C18523 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VR;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Vishwanth Reddy";
+			};
+			buildConfigurationList = 4F91C4711712D60600C18523 /* Build configuration list for PBXProject "helloGIT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4F91C46D1712D60600C18523;
+			productRefGroup = 4F91C4771712D60600C18523 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F91C4751712D60600C18523 /* helloGIT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F91C4741712D60600C18523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F91C4841712D60600C18523 /* InfoPlist.strings in Resources */,
+				4F91C48C1712D60600C18523 /* Default.png in Resources */,
+				4F91C48E1712D60600C18523 /* Default@2x.png in Resources */,
+				4F91C4901712D60600C18523 /* Default-568h@2x.png in Resources */,
+				4F91C4961712D60600C18523 /* VRViewController_iPhone.xib in Resources */,
+				4F91C4991712D60600C18523 /* VRViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F91C4721712D60600C18523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F91C4861712D60600C18523 /* main.m in Sources */,
+				4F91C48A1712D60600C18523 /* VRAppDelegate.m in Sources */,
+				4F91C4931712D60600C18523 /* VRViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F91C4821712D60600C18523 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F91C4831712D60600C18523 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4F91C4941712D60600C18523 /* VRViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F91C4951712D60600C18523 /* en */,
+			);
+			name = VRViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		4F91C4971712D60600C18523 /* VRViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F91C4981712D60600C18523 /* en */,
+			);
+			name = VRViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F91C49A1712D60600C18523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F91C49B1712D60600C18523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F91C49D1712D60600C18523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "helloGIT/helloGIT-Prefix.pch";
+				INFOPLIST_FILE = "helloGIT/helloGIT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4F91C49E1712D60600C18523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "helloGIT/helloGIT-Prefix.pch";
+				INFOPLIST_FILE = "helloGIT/helloGIT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F91C4711712D60600C18523 /* Build configuration list for PBXProject "helloGIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F91C49A1712D60600C18523 /* Debug */,
+				4F91C49B1712D60600C18523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F91C49C1712D60600C18523 /* Build configuration list for PBXNativeTarget "helloGIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F91C49D1712D60600C18523 /* Debug */,
+				4F91C49E1712D60600C18523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F91C46E1712D60600C18523 /* Project object */;
+}
